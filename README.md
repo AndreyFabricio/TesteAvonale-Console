@@ -1,4 +1,4 @@
-# TesteAvonale-Console
+# TesteLista-Console
 Programa em console construído no C# para prova na empresa Avonale
 
 Este programa tem o intuito de imprimir a média de uma lista de números, calcular e imprimir os números maiores do que a média e imprimir essa mesma lista de trás para a frente.
