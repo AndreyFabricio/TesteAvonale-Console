@@ -25,7 +25,15 @@ namespace AvonaleProjeto2
                 // Imprime no console a média dos números contidos na lista
                 Console.WriteLine("================================================================");
                 Console.WriteLine();
-                Media(numeros);
+                Console.Write("A média atual dos números da lista é: {0:0.00}", Media(numeros));
+                Console.WriteLine();
+                Console.WriteLine();
+
+                // Imprime no console os números maiores do que a média
+                Console.WriteLine("================================================================");
+                Console.WriteLine();
+                Console.Write("Os números maiores do que a média são: ");
+                MaiorMedia(Media(numeros), numeros);
                 Console.WriteLine();
                 Console.WriteLine();
 
@@ -56,19 +64,28 @@ namespace AvonaleProjeto2
             foreach (int num in numeros) Console.Write(num + " ");
         }
 
-        // Imprime no console a média dos números contidos na lista
-        private static void Media(List<int> numeros)
+        // Calcula a média
+        private static float Media(List<int> numeros)
         {
             float media = 0, quantidade = 0;
 
             foreach (int num in numeros)
             {
-                media += num; // Soma a média o número atual da lista
+                media += num; // Soma à média o número atual da lista
                 quantidade++; // Para cada número da lista percorrido no foreach soma 1 a quantidade
             }
 
-            // Imprime a média
-            Console.Write("A média atual dos números da lista é: {0:0.00}", media / quantidade);
+            return media / quantidade;
+        }
+
+        // Imprime no console os números maiores do que a média
+        private static void MaiorMedia(float media, List<int> numeros)
+        {
+            foreach (int num in numeros)
+            {
+                if (num > media)
+                    Console.Write(num + " ");
+            }
         }
 
         // Imprime no console os números na ordem invertida
