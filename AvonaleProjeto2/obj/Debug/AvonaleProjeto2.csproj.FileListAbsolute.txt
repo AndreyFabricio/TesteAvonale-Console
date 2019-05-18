@@ -1,0 +1,7 @@
+C:\Users\Andrey\Desktop\Projeto Avonale - Andrey Fabricio Almeida dos Santos\Questão 1\AvonaleProjeto2\AvonaleProjeto2\bin\Debug\AvonaleProjeto2.exe.config
+C:\Users\Andrey\Desktop\Projeto Avonale - Andrey Fabricio Almeida dos Santos\Questão 1\AvonaleProjeto2\AvonaleProjeto2\bin\Debug\AvonaleProjeto2.exe
+C:\Users\Andrey\Desktop\Projeto Avonale - Andrey Fabricio Almeida dos Santos\Questão 1\AvonaleProjeto2\AvonaleProjeto2\bin\Debug\AvonaleProjeto2.pdb
+C:\Users\Andrey\Desktop\Projeto Avonale - Andrey Fabricio Almeida dos Santos\Questão 1\AvonaleProjeto2\AvonaleProjeto2\obj\Debug\AvonaleProjeto2.csprojAssemblyReference.cache
+C:\Users\Andrey\Desktop\Projeto Avonale - Andrey Fabricio Almeida dos Santos\Questão 1\AvonaleProjeto2\AvonaleProjeto2\obj\Debug\AvonaleProjeto2.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\Desktop\Projeto Avonale - Andrey Fabricio Almeida dos Santos\Questão 1\AvonaleProjeto2\AvonaleProjeto2\obj\Debug\AvonaleProjeto2.exe
+C:\Users\Andrey\Desktop\Projeto Avonale - Andrey Fabricio Almeida dos Santos\Questão 1\AvonaleProjeto2\AvonaleProjeto2\obj\Debug\AvonaleProjeto2.pdb
