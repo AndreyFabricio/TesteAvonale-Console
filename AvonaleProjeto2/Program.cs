@@ -71,7 +71,7 @@ namespace AvonaleProjeto2
 
             foreach (int num in numeros)
             {
-                soma += num; // Adiciona a "soma" o número atual da lista
+                soma += num; // Incrementa "soma" com o número atual da lista
                 quantidade++; // Para cada número da lista percorrido no foreach soma 1 a quantidade
             }
 
