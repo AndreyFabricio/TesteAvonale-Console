@@ -67,15 +67,15 @@ namespace AvonaleProjeto2
         // Calcula a média
         private static float Media(List<int> numeros)
         {
-            float media = 0, quantidade = 0;
+            float soma = 0, quantidade = 0;
 
             foreach (int num in numeros)
             {
-                media += num; // Soma à média o número atual da lista
+                soma += num; // Adiciona a "soma" o número atual da lista
                 quantidade++; // Para cada número da lista percorrido no foreach soma 1 a quantidade
             }
 
-            return media / quantidade;
+            return soma / quantidade;
         }
 
         // Imprime no console os números maiores do que a média
@@ -166,5 +166,4 @@ namespace AvonaleProjeto2
         } // Fim do método NovaLista
 
     }// Fim da Class
-}
- 
+} 
